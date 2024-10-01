@@ -70,7 +70,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
-    val image = painterResource(R.drawable.androidparty)
+    val image = painterResource(R.drawable.alibaba_logo_3)
     Box(modifier) {
         Image(
             painter = image,
@@ -91,7 +91,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
         GreetingImage(
-            message = "Happy Birthday Sanya!",
+            message = "Happy Birthday Timyr!",
             from = "From YurY"
         )
     }
